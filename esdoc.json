@@ -1,0 +1,4 @@
+{
+  "source": "./static/js",
+  "destination": "./esdoc"
+}

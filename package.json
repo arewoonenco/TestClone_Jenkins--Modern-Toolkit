@@ -17,6 +17,7 @@
         "grunt-qunit-cov": "~0.3.2",
         "grunt-qunit-istanbul" : "*",
         "grunt-contrib-csslint": "*",
-        "grunt-parallel-behat" : "*"
+        "grunt-parallel-behat" : "*",
+        "esdoc" : "*"
     }
 }

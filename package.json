@@ -23,6 +23,6 @@
 
         "esdoc" : "*",
 
-        "jsdoc" : "https://github.com/jsdoc3/jsdoc.git"
+        "jsdoc" : "git+https://github.com/jsdoc3/jsdoc.git"
     }
 }

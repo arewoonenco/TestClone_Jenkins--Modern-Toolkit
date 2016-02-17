@@ -2,6 +2,13 @@ var request = require("request");
 var helloWorld = require("../app.js")
 var base_url = "http://localhost:3000/"
 
+var reporters = require('jasmine-reporters');
+var junitReporter = new reporters.JUnitXmlReporter({
+    savePath: "../jasmine_reports",
+    consolidateAll: true
+});
+jasmine.getEnv().addReporter(junitReporter);
+
 describe("Hello World Server", function() {
   describe("GET /", function() {
     it("returns status code 200", function(done) {
@@ -22,8 +29,3 @@ describe("Hello World Server", function() {
 });
 
 
-var reporters = require('jasmine-reporters');
-var junitReporter = new reporters.JUnitXmlReporter({
-    savePath: "../jasmine_reports",
-    consolidateAll: true
-});

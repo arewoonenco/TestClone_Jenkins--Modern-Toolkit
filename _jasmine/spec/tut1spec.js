@@ -4,7 +4,7 @@ var base_url = "http://localhost:3000/"
 
 var reporters = require('jasmine-reporters');
 var junitReporter = new reporters.JUnitXmlReporter({
-    savePath: "../jasmine_reports",
+    savePath: "..",
     consolidateAll: true
 });
 jasmine.getEnv().addReporter(junitReporter);

@@ -2,12 +2,12 @@ var request = require("request");
 var helloWorld = require("../app.js")
 var base_url = "http://localhost:3000/"
 
-var reporters = require('jasmine-reporters');
-var junitReporter = new reporters.JUnitXmlReporter({
-    savePath: "..",
-    consolidateAll: true
-});
-jasmine.getEnv().addReporter(junitReporter);
+//var reporters = require('jasmine-reporters');
+//var junitReporter = new reporters.JUnitXmlReporter({
+//    savePath: "..",
+//    consolidateAll: true
+//});
+//jasmine.getEnv().addReporter(junitReporter);
 
 describe("Hello World Server", function() {
   describe("GET /", function() {

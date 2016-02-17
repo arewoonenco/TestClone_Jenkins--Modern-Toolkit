@@ -7,7 +7,7 @@
 
       "request": "*",
       "express": "*",
-      "jasmine-node": "*",
+      "jasmine-node": "*"
     },
 
     "devDependencies": {

@@ -18,6 +18,11 @@
         "grunt-qunit-istanbul" : "*",
         "grunt-contrib-csslint": "*",
         "grunt-parallel-behat" : "*",
-        "esdoc" : "*"
+
+        "jasmine-reporters" : "*",
+
+        "esdoc" : "*",
+
+        "jsdoc" : "https://github.com/jsdoc3/jsdoc.git"
     }
 }
